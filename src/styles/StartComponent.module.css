@@ -1,0 +1,16 @@
+.changeVidBtn {
+  @apply bg-purple-600 rounded-md py-4 px-3 font-bold text-xl text-white; 
+  position: fixed; 
+  top: 15%; 
+  right: -60px; 
+  transform: translate(-50%, -50%);
+  transition: background-color 0.3s ease; 
+  opacity: 0.93;
+  justify-content: space-between;
+}
+
+
+.changeVidBtn:hover{
+  background-color: #1e4bb3;
+}
+

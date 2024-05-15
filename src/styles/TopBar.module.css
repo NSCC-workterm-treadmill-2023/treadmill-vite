@@ -1,0 +1,22 @@
+.container {
+  @apply top-0 left-0 w-full bg-gray-600 p-2 touch-none;
+  overflow: hidden; /* Disable scrolling */
+  opacity: 0.9;
+
+}
+
+
+.subContainer {
+  @apply flex justify-between items-center p-3 ;
+}
+
+.label {
+  @apply text-2xl text-white bg-slate-900 py-2 px-5 rounded-lg z-10;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  margin-right: 10px;
+}

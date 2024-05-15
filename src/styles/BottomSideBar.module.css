@@ -1,0 +1,131 @@
+.container {
+  @apply fixed bottom-0 gap-y-0  w-full bg-gray-700 flex items-center justify-evenly z-10 ;
+  overflow: hidden;
+  opacity: 0.88;
+  
+}
+
+
+/* Incline Styles */
+.inclineContainer {
+  @apply flex flex-col items-center;
+}
+
+.inclineLabel {
+  @apply text-white font-bold mb-4 text-[30px];
+}
+
+.inclineFlx {
+  @apply flex items-center;
+}
+
+/* Start/Stop and Cooldown Buttons Styles */
+.mainBtnsContainer {
+  @apply flex justify-center items-center space-x-4 m-4 font-bold text-white;
+}
+
+.startStopBtns {
+  @apply text-white text-3xl font-bold py-7 px-11 w-[220px] rounded-md;
+}
+
+.startStopBtns:active {
+  transition: 0.1s;
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+   
+  /* Lowering the shadow */
+}
+
+
+.cooldownBtn {
+  @apply bg-blue-600 py-7 px-12 text-white rounded-md text-3xl;
+}
+
+.cooldownBtn:active {
+  transform: scale(0.95);
+  transition: 0.1s;
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+
+/* Speed Styles */
+.speedContainer {
+  @apply flex flex-col items-center;
+}
+
+.speedLabel {
+  @apply text-white font-bold mb-4 text-[30px];
+}
+
+.btnsAlign {
+  @apply flex items-center;
+}
+
+/* Up and Down Arrows Styles */
+
+.downArrow {
+  @apply text-6xl font-bold text-white;
+  position: relative;
+  top: 2px;
+  left: 7px;
+  transform: rotate(90deg);
+}
+
+.upArrow {
+  @apply text-6xl font-bold text-white;
+  position: relative;
+  top: -2px;
+  left: -8px;
+  transform: rotate(270deg);
+}
+
+/* Speed and Incline Buttons Styles */
+.buttons {
+  @apply bg-blue-700 text-white w-20 h-20 rounded-full mb-4 flex items-center justify-center;
+  -webkit-tap-highlight-color: transparent;
+  background-color: #ff0000b4;
+  margin-right: 10px;
+}
+
+.buttons:active {
+  transform: scale(0.85);
+  transition: 0.1s;
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+
+.buttons2 {
+  @apply bg-blue-200 text-white w-20 h-20 rounded-full mb-4 flex items-center justify-center;
+  -webkit-tap-highlight-color: transparent;
+  background-color: #2c54c1d7;
+  margin-left: 10px;
+}
+
+
+.buttons2:active {
+  transform: scale(0.85);
+  transition: 0.1s;
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+
+/* Speed and Inlcine Value Styles */
+
+.arrowCount {
+  color: white;
+  font-size: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 40px; /* Adjust the width as needed */
+  text-align: center;
+}
+
+.inclineContainer,
+.mainBtnsContainer,
+.speedContainer {
+  margin-left: -180px; /* Change this to your desired offset */
+}
+

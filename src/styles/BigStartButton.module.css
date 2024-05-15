@@ -1,0 +1,12 @@
+.container {
+  @apply fixed inset-0 h-screen w-screen z-50 flex items-center justify-center;
+  background-image: url("/TeamSmartTreadMill_auto_x2_light_ai_remove_watermark.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.getStarted {
+  @apply bg-red-800 px-12 py-10 text-4xl rounded-md top-2/3 skew-x-12 text-center justify-center absolute text-white hover:bg-white hover:text-black;
+  top: 55%;
+  left: 45%;
+}
