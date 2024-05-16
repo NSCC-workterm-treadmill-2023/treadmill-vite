@@ -45,7 +45,7 @@ const ImageCards = ({ images, handleImageClick, isSelected, isRunning }) => {
               alt="Video Cover"
               width={300}
               height={300}
-              className={`${isSelected === city && isRunning ? styles.selectedCard : styles.card} w-full h-full object-cover`}
+              className={`${isSelected === city && isRunning ? styles.selectedCard : styles.card} object-cover`}
             />
           </div>
           <div className={`absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white w-[320px] p-2 `}>
